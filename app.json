@@ -6,7 +6,6 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "package": "com.queenssmile.queenssmile",
     "splash": {
       "image": "./assets/icon.png",
       "resizeMode": "contain",
@@ -28,7 +27,8 @@
       "package": "com.queenssmile.queenssmile"
     },
     "web": {
-      "favicon": "./assets/icon.png"
+      "favicon": "./assets/icon.png",
+      "package": "com.queenssmile.queenssmile"
     },
     "extra": {
       "eas": {

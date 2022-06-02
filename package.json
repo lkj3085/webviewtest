@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
+    "dev": "HOST=0.0.0.0",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
@@ -10,6 +11,7 @@
   },
   "dependencies": {
     "expo": "~45.0.0",
+    "expo-location": "~14.2.2",
     "expo-status-bar": "~1.3.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -19,7 +21,8 @@
     "react-native-webview": "11.18.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "react-devtools": "^4.24.6"
   },
   "private": true
 }
